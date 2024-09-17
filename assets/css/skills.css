@@ -3,7 +3,7 @@
     height: 10rem;
 }
 .skills .container{
-    margin-top: -10rem;
+    margin-top: -5rem;
 }
 .skills .grid{
     background-color: var(--background);
@@ -17,7 +17,7 @@
     text-align: center;
     border-right: 0;
     border-bottom: 1px solid var(--primary-light);
-    color:var(--primary);
+    color: var(--primary);
     padding: 5rem 2rem;
 }
 .skills .skill:last-child{
@@ -52,16 +52,17 @@
     margin-top: 5rem;
     margin-bottom: 1rem;
     font-size: 1.7rem;
-    color:var(--foreground);
+    color: var(--foreground);
 }
 .skill-txt{
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     line-height: 2.5rem;
 }
-@media(width>600px){
+@media (width > 600px){
     .skills .grid{
         grid-template-columns: repeat(3, 1fr);
     }
+
     .skills .skill{
         border-bottom: 0;
         border-right: 1px solid var(--primary-light);

@@ -1,5 +1,5 @@
 .worked-with{
-    border-top: 0.1rem solid var(--primary-light);
+    border-top: 0,1rem solid var(--primary-light);
     padding:8rem 2rem;
     text-align: center;
     color: var(--primary);
@@ -16,7 +16,7 @@
     gap: 2rem;
 }
 .worked-with .grid img{
-    width: 100%;
+    width: 100%
 }
 @media(width>600px){
     .worked-with .title{
